@@ -1,0 +1,106 @@
+package com.loiane.java.aula20;
+
+import java.util.Scanner;
+
+public class Exer04 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		String[][] compromissos = new String[31][24];
+		boolean sair = false;
+		byte opcao;
+		
+		while (!sair){
+			System.out.println("Digite 1 para add compromisso.");
+			System.out.println("Digite 2 para verificar compromisso.");
+			System.out.println("Didgite 0 para sair.");
+			
+			opcao = input.nextByte();
+			
+			if (opcao == 1){// add compromisso
+				
+				int dia = 0;
+				boolean diaValido = false;
+				
+				while (!diaValido){
+					System.out.println("Informe o dia do mês:");
+					dia = input.nextInt();
+					
+					if (dia > 0 && dia <= 31){
+						diaValido = true;
+					}
+					else {
+						System.out.println("Dia Inválido");
+					}
+				}
+				
+				int hora = 0;
+				boolean horaValida = false;
+				
+				while (!horaValida){
+					System.out.println("Informe a hora:");
+					hora = input.nextInt();
+					
+					if (hora >= 0 && hora < 24){
+						horaValida = true;
+					}
+					else {
+						System.out.println("Hora Inválida");
+					}
+				}
+				
+				dia--;
+				System.out.println("Digite o compromisso:");
+				compromissos[dia][hora] = input.next();
+				
+			}
+			else if (opcao == 2){// Verificar compromisso
+				
+				int dia = 0;
+				boolean diaValido = false;
+				
+				while (!diaValido){
+					System.out.println("Informe o dia do mês:");
+					dia = input.nextInt();
+					
+					if (dia > 0 && dia <= 31){
+						diaValido = true;
+					}
+					else {
+						System.out.println("Dia Inválido");
+					}
+				}
+				
+				int hora = 0;
+				boolean horaValida = false;
+				
+				while (!horaValida){
+					System.out.println("Informe a hora:");
+					hora = input.nextInt();
+					
+					if (hora >= 0 && hora < 24){
+						horaValida = true;
+					}
+					else {
+						System.out.println("Hora Inválida");
+					}
+				}
+				
+				dia--;
+				System.out.println("O compromisso agendado é: ");
+				System.out.println(compromissos[dia][hora]);
+				
+			}
+			else if (opcao == 0){
+				sair = true;
+			}
+			else {
+				System.out.println("Inválido");
+			}
+			
+		}
+
+	}
+
+}

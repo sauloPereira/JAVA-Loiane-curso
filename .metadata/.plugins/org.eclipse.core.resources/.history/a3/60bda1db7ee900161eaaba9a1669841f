@@ -1,0 +1,9 @@
+package com.algaworks.java;
+
+public class Caminhao {
+	
+	private String modelo;
+	private Seguro seguro;
+	
+
+}

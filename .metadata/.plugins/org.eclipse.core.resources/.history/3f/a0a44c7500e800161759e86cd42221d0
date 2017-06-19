@@ -1,0 +1,14 @@
+package com.loiane.java.aula52labs;
+
+public class Contato {
+	
+	private int contador;
+	
+	private String nome;
+	private String telefone;
+	private String email;
+	private int id;
+	
+	
+
+}

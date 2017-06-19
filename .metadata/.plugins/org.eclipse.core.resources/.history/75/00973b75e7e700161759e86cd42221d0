@@ -1,0 +1,19 @@
+package com.loiane.java.aula49;
+
+import java.util.Scanner;
+
+public class UsandoThrows {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+	public double LerNumero(){
+		Scanner input = new Scanner(System.in);
+		
+		
+	}
+	
+}

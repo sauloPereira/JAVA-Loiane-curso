@@ -1,0 +1,18 @@
+package com.loiane.java.aula45;
+
+public class Test02 {
+	public static void main (String[]args){
+		
+		Object obj = obterString();
+		String s1 = (String) obj;
+		
+		System.out.println(obj);
+		
+	}
+	
+	public static String obterString(){
+		
+		return "Minha String";
+		
+	}
+}

@@ -1,0 +1,10 @@
+package com.loiane.java.aula56;
+
+public class Pessoa {
+	
+	private TipoDocumento tipoDoc;
+	private String numDocumento;
+	
+	
+
+}

@@ -1,0 +1,14 @@
+package com.loiane.java.aula52labs;
+
+public class Agenda {
+	
+	public void adicionarContato(){
+		
+	}
+	
+	public void consultarContato(){
+		
+		
+	}
+
+}

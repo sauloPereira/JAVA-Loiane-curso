@@ -1,0 +1,23 @@
+package com.loiane.java.aula17;
+
+import java.util.Scanner;
+
+public class Exer18 {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Informe um número: ");
+		int num = input.nextInt();
+		
+		if ((num / num == 1) && (num / num == num)){
+			System.out.println("Número primo");
+		}
+		else {
+			System.out.println("Não é número primo");
+		}
+
+	}
+
+}

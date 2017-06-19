@@ -1,0 +1,12 @@
+package com.loiane.java.aula53;
+
+public class Enum {
+	
+	/*
+	 * Enumeradores - enum
+	 * 
+	 * São um tipo de constantes que possuem funcionalidades extras
+	 * 
+	 * */
+
+}

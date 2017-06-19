@@ -1,0 +1,32 @@
+package com.algaworks.teste;
+
+import com.algaworks.java.Caminhao;
+import com.algaworks.java.Motorista;
+import com.algaworks.java.Seguro;
+import com.algaworks.repository.Motoristas;
+
+public class ConsultaCobertura {
+
+	public static void main(String[]args){
+		
+		Motoristas motoristas = new Motoristas();
+//		Motorista motorista = motoristas.porNome("João");
+		
+		//String cobertura = motorista.getCaminhao().getSeguro().getCobertura();
+//		String cobertura = /*null*/ "Sem seguro";
+//		if (motorista != null){
+//			Caminhao caminhao = motorista.getCaminhao();
+//			if (caminhao != null){
+//				Seguro seguro = caminhao.getSeguro();
+//				if (seguro != null){
+//					cobertura = seguro.getCobertura(); /*!= null ? seguro.getCobertura() : "Sem seguro";*/
+//			
+//				}
+//			}
+//		}
+		
+		//System.out.println("Cobertura é: " + cobertura);
+		
+	}
+	
+}

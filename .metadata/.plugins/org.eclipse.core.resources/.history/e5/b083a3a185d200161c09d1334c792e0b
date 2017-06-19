@@ -1,0 +1,16 @@
+package com.loiane.java.aula24;
+
+public class Exer01 {
+	
+	//Classe para lâmpada
+	
+	String modelo;
+	String tensao;
+	String tipoLuz;
+	String cor;
+	int potencia;
+	int garatiaMeses;
+	String[] tipos;
+	boolean tipoAbajur;
+
+}

@@ -1,0 +1,17 @@
+package com.loiane.java.aula54;
+
+public class EnumClassesConstrutoresMetodos {
+	
+	/*
+	 * Enum Construtor
+	 * 
+	 * 1º um atributo ou mais
+	 * 
+	 * passa a classe para um construtor
+	 *  com o atributo definido anteriormente
+	 *  
+	 *  gerase o metodo com o atributo em questao
+	 * 
+	 * */
+
+}

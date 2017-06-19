@@ -1,0 +1,9 @@
+package com.loiane.java.aula46;
+
+public abstract class BancoDados {
+
+	public abstract void abrirConexao();
+	
+	public abstract void fecharConexao();
+	
+}

@@ -1,0 +1,11 @@
+package com.loiane.java.aula46;
+
+public interface SqlDDL {
+
+	void create();
+	
+	void drop();
+	
+	void alter();
+	
+}

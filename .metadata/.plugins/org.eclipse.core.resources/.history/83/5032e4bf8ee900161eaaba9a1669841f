@@ -1,0 +1,19 @@
+package com.algaworks.teste;
+
+import com.algaworks.java.Motorista;
+import com.algaworks.repository.Motoristas;
+
+public class ConsultaCobertura {
+
+	public static void main(String[]args){
+		
+		Motoristas motoristas = new Motoristas();
+		Motorista motorista = motoristas.porNome("Joao");
+		
+		String cobertura = motorista.getCaminhao().getSeguro().getCobertura();
+		
+		System.out.println("Cobertura é: " + cobertura);
+		
+	}
+	
+}

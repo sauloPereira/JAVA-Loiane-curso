@@ -1,0 +1,31 @@
+package com.loiane.java.aula52labs;
+
+public class Agenda {
+	
+	private Contato[] contatos;
+	
+	public Agenda() {
+		contatos = new Contato[5];
+		
+		
+	}
+	
+	public void adicionarContato(){
+		
+	}
+	
+	public void consultarContato(){
+		
+		
+	}
+	
+	@Override
+	public String toString() {
+		String s = "";
+		for (Contato c : contatos){
+			s += c.toString() + "\n";
+		}
+		return s;
+	}
+
+}

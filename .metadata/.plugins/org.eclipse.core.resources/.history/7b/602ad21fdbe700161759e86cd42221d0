@@ -1,0 +1,16 @@
+package com.loiane.java.aula47;
+
+public class Excesao {
+	
+	public static void main(String [] args){
+		
+		int[] vetor = new int[4];
+		
+		System.out.println("Antes da Exception");
+		
+		//posição que não existe
+		vetor[4] = 1;
+		System.out.println("Esse texto não será impresso");
+		
+	}
+}

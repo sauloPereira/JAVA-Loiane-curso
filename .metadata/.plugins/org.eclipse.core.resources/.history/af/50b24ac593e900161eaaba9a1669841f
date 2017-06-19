@@ -1,0 +1,24 @@
+package com.algaworks.teste;
+
+import java.math.BigDecimal;
+import java.util.Optional;
+
+import com.algaworks.java.Seguro;
+
+public class TesteOpcional {
+
+	public static void main(String[] args) {
+		
+		Seguro seguro = new Seguro("Total com franquia reduzida", new BigDecimal("600"));
+		
+		Optional<Seguro> seguroOpcional = Optional.of(seguro);
+		//para declarar um optinal vazio
+		Seguro seguro2 = null;
+		Optional<Seguro> seguroOptionalVazio = Optional.of(null);
+		
+		//Caso não tenha certeza se é nulo
+		Optional<Seguro> seguroOpcional = Optional.ofNullable(seguro);
+
+	}
+
+}

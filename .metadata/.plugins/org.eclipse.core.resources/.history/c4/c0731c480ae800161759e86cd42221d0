@@ -1,0 +1,18 @@
+package com.loiane.java.aula52labs;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		
+		Contato c1 = new Contato();
+		System.out.println(c1.getId());
+		
+		Contato c2 = new Contato();
+		System.out.println(c2.getId());
+		
+		Contato c3 = new Contato();
+		System.out.println(c3.getId());
+
+	}
+
+}

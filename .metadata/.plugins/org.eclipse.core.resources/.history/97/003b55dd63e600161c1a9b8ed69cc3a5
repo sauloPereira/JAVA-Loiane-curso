@@ -1,0 +1,14 @@
+package com.loiane.java.aula45;
+
+public class Teste {
+	
+	//Transformando uma classe menor em uma maior
+	Aluno aluno = new Aluno();
+	Pessoa pessoaAluno = aluno;//UPcasting
+
+	//Pessoa aluno = new Aluno();
+	//ou
+	//Pessoa aluno = (Pessoa) new Aluno();
+	
+	
+}

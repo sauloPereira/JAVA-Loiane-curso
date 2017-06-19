@@ -1,0 +1,10 @@
+package com.loiane.java.aula50;
+
+public class ExceptionGenerica {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.loiane.java.aula44;
+
+public class OOInterfaces {
+	/*
+	 * è uma classe abstract que só tem metodos abstratos
+	 * 
+	 * Em Java  diferente de C++ não se pode estender duas classes
+	 * 
+	 * EX: digamos que eu queira dzer que um gato é uma ave e tambeèm um
+	 *  mamifero, não seria possivel   (extends Mamifero , Ave).
+	 *
+	 *E é pra isso que se usa as interfaces  
+	 * 
+	 * */
+
+}

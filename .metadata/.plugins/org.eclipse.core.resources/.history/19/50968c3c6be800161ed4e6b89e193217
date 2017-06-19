@@ -1,0 +1,43 @@
+package com.loiane.java.aula52labs;
+
+import java.util.Scanner;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		
+
+	}
+	
+	public int obterOpcaoMenu(Scanner input){
+		boolean entradaValida = false;
+		int opcao = 3;
+		
+		while (!entradaValida){
+			System.out.println("Digite a opção desejada:");
+			System.out.println("1 - Consultar Contato");
+			System.out.println("2 - Add Contato");
+			System.out.println("3 - sair");
+			
+			try {
+				opcao = input.nextInt();
+				
+				if (opcao != 1 || opcao != 2 || opcao != 3){
+					throw new Exception("Entrada invalida, digite novamente");
+				}
+				else {
+					entradaValida = true;
+				}
+				
+			}
+			catch (Exception e){
+				System.out.println("Entrada invalida, digite novamente");
+			}
+		}
+		return opcao;
+	}
+
+}

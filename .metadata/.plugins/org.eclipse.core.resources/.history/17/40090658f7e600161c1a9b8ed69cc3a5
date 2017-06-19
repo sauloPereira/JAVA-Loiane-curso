@@ -1,0 +1,7 @@
+package com.loiane.java.aula46labs;
+
+public class Piramide extends Figura3D{
+	
+	
+
+}

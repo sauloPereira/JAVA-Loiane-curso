@@ -1,0 +1,20 @@
+package com.loiane.java.aula50;
+
+public class ExceptionStacktraceThrows {
+	
+	/*
+	 * classe Throwable - é a super classe dos erros
+	 * 
+	 * seus metodos
+	 * 
+	 * getMessage()  -  retorna a descrição do erro
+	 * 
+	 * printStackTrace()  -  imprime o stack trace do erro
+	 * 		informa em qual linha da classe ocorreu o erro
+	 * 
+	 * 
+	 * usar o Exception e não o throwable
+	 * 
+	 * */
+
+}

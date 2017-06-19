@@ -1,0 +1,9 @@
+package com.loiane.java.aula46;
+
+public interface BancoDados extends SqlDCL, {
+
+	void abrirConexao();
+	
+	void fecharConexao();
+	
+}

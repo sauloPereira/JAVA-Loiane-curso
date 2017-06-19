@@ -1,0 +1,32 @@
+package com.loiane.java.aula17;
+
+import java.util.Scanner;
+
+public class Exer25 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+			
+		System.out.println("Lojas Tabajara");
+		
+		boolean sair = false;
+		String continuarCompra;
+		
+		do {
+			System.out.println("Deseja infromar uma nova compra? S/N");
+			continuarCompra = input.next();
+			
+			if (continuarCompra.equalsIgnoreCase("s")){
+				System.out.println("Digite a quantidade de produtos da compra: ");
+				
+			}
+			else {
+				sair = true;
+			}
+			
+		}
+		while (!sair);
+		
+	}
+
+}

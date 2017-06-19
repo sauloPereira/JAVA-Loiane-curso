@@ -1,0 +1,43 @@
+package com.loiane.java.aula46labs;
+
+public class Teste {
+
+	public static void main(String[] args) {
+
+		Quadrado fig1 = new Quadrado();
+		fig1.setLado(2);
+		
+		Circulo fig2 = new Circulo();
+		fig2.setRaio(2);
+		
+		Triangulo fig3 = new Triangulo();
+		fig3.setBase(3);
+		fig3.setAltura(2);
+		
+		Cubo fig4 = new Cubo();
+		fig4.setLado(3);
+		
+		Cilindro fig5 = new Cilindro();
+		fig5.setAltura(3);;
+		fig5.setRaio(2);
+
+		Piramide fig6 = new Piramide();
+		fig6.setAltura(3);
+		fig6.setApotema(4);
+		fig6.setArestaBase(2);
+		fig6.setNumPoliBase(4);
+		fig6.setBase(fig1);
+		
+		//Colocando no Array
+		
+		FiguraGeometrica[] figuras = new FiguraGeometrica[6];
+		figuras[0] = fig1;
+		figuras[1] = fig2;
+		figuras[2] = fig3;
+		figuras[3] = fig4;
+		figuras[4] = fig5;
+		figuras[5] = fig6;
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.algaworks.java;
+
+public class Motorista {
+
+	private String nome;
+	private Integer idade;
+	
+	
+}

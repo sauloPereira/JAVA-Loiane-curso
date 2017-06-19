@@ -1,0 +1,41 @@
+package com.algaworks.teste;
+
+import java.util.Optional;
+
+import com.algaworks.java.Caminhao;
+import com.algaworks.java.Motorista;
+import com.algaworks.java.Seguro;
+import com.algaworks.repository.Motoristas;
+
+public class ConsultaCobertura {
+
+	public static void main(String[]args){
+		
+		Motoristas motoristas = new Motoristas();
+//		Motorista motorista = motoristas.porNome("João");
+		
+		//String cobertura = motorista.getCaminhao().getSeguro().getCobertura();
+//		String cobertura = /*null*/ "Sem seguro";
+//		if (motorista != null){
+//			Caminhao caminhao = motorista.getCaminhao();
+//			if (caminhao != null){
+//				Seguro seguro = caminhao.getSeguro();
+//				if (seguro != null){
+//					cobertura = seguro.getCobertura(); /*!= null ? seguro.getCobertura() : "Sem seguro";*/
+//			
+//				}
+//			}
+//		}
+		
+		//System.out.println("Cobertura é: " + cobertura);
+		
+		Optional<Motorista> motoristaOpcional = motoristas.porNome("João");
+		//Usando desta forma erro pois esta cha mando um Optional dentro de outro
+		//a forma correta e usar .flatMap();
+		//Optional<Caminhao> caminhaoOptional = motoristaOpcional.map(Motorista::getCaminhao);
+		Optional<Caminhao> caminhaoOptional = motoristaOpcional.flatMap(Motorista::getCaminhao);
+		
+		
+	}
+	
+}

@@ -1,0 +1,11 @@
+package com.loiane.java.aula52labs;
+
+public class ContatoNaoExisteException extends Exception{
+	
+	@Override
+	public String toString() {
+	
+		return "Contato não existente";
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.loiane.java.aula48;
+
+public class MultiplosCatch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

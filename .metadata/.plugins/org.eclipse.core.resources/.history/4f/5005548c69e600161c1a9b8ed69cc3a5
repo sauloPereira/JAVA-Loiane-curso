@@ -1,0 +1,13 @@
+package com.loiane.java.aula46;
+
+public interface SqlDML {
+	
+	void insert();
+	
+	void upDate();
+
+	void delete();
+	
+	void select();
+	
+}

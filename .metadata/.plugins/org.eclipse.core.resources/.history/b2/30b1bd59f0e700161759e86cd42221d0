@@ -1,0 +1,24 @@
+package com.loiane.java.aula52;
+
+public class DivisaoNaoExata extends Exception {
+	
+	private int num;
+	private int denom;
+	
+	
+	public int getNum() {
+		return num;
+	}
+	public void setNum(int num) {
+		this.num = num;
+	}
+	public int getDenom() {
+		return denom;
+	}
+	public void setDenom(int denom) {
+		this.denom = denom;
+	}
+	
+	
+
+}

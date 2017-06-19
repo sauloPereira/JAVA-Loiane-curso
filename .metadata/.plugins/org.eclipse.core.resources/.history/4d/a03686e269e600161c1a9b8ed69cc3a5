@@ -1,0 +1,9 @@
+package com.loiane.java.aula46;
+
+public interface BancoDados {
+
+	void abrirConexao();
+	
+	void fecharConexao();
+	
+}
